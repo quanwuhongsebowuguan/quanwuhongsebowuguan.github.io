@@ -161,5 +161,6 @@ sitemap:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/quanwuhongsebowuguan/quanwuhongsebowuguan.github.io.git
+  token: $GITHUB_TOKEN
+  repository: https://github.com/quanwuhongsebowuguan/quanwuhongsebowuguan.github.io.git
   branch: gh-pages
