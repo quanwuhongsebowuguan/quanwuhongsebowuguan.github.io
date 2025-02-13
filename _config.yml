@@ -162,5 +162,5 @@ sitemap:
 deploy:
   type: git
   token: $GITHUB_TOKEN
-  repository: https://github.com/quanwuhongsebowuguan/quanwuhongsebowuguan.github.io.git
+  repository: https://$GITHUB_TOKEN@github.com/quanwuhongsebowuguan/quanwuhongsebowuguan.github.io.git
   branch: gh-pages
