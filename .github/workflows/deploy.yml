@@ -24,8 +24,11 @@ jobs:
           cache: npm
 
       - run: |
-          # Config Git username as GitHub Actions bot
           git config --global user.name "GitHub Actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          # 修改 Git 远程仓库地址，直接嵌入 token
+          git remote set-url origin https://${{GITHUB_TOKEN}}@github.com/quanwuhongsebowuguan/quanwuhongsebowuguan.github.io.git
           npm install
           npx hexo deploy
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
