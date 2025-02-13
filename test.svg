@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="60">
+    <style>
+        .letter {
+        font-size: 48px;
+        font-weight: bold;
+        }
+    </style>
+    <!-- 模拟容器底部边框，bottom位置可根据需要调整 -->
+    <line x1="0" y1="55" x2="220" y2="55" stroke="black" stroke-width="3" />
+    <!-- 按 h5 中各字母 transform 定义绘制 -->
+    <text class="letter" x="39" y="50" transform="scale(0.7,1) skewX(-30)">A</text>
+    <text class="letter" x="73" y="50" transform="scale(0.7,1) skewX(-23.4)">R</text>
+    <text class="letter" x="108" y="50" transform="scale(0.7,1) skewX(-21.5)">C</text>
+    <text class="letter" x="141" y="50" transform="scale(0.7,1) skewX(-15)">H</text>
+    <text class="letter" x="184" y="50" transform="scale(0.7,1) skewX(-13)">I</text>
+    <text class="letter" x="204" y="50" transform="scale(0.7,1) skewX(-7)">V</text>
+    <text class="letter" x="242" y="50" transform="scale(0.7,1) skewX(0)">E</text>
+    <text class="letter" x="277" y="50" transform="scale(0.7,1) skewX(0)">S</text>
+</svg>

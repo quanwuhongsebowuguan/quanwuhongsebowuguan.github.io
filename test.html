@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>渐变倾斜字母</title>
+    <style>
+        .container {
+            font-size: 48px;
+            font-weight: bold;
+            display: flex;
+            position: relative;
+            /* gap: -5px; */
+            /* 下边线 */
+        }
+
+        .container::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 5px;
+            /* 根据需要向上调整边框位置 */
+            border-bottom: 3px solid;
+            font-family: "Stfangsong";
+        }
+
+        .letter {
+            display: inline-block;
+            /* 斜体 */
+            /* font-style: italic; */
+            /* transform: rotate(18deg); */
+            /* 宽高比改为原先的0.7 */
+            transform: scale(0.7, 1);
+            /* 字符间距 */
+            letter-spacing: -5px;
+        }
+
+        .a,
+        .r,
+        .c {
+            letter-spacing: -8px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <span class="">A</span>
+        <span class="letter">r</span>
+        <span class="letter">c</span>
+        <span class="letter">h</span>
+        <span class="letter">i</span>
+        <span class="letter">v</span>
+        <span class="letter">e</span>
+        <span class="letter">s</span> -->
+    <div class="container">
+        &nbsp;
+        <span class="letter a" style="transform:scale(0.7, 1) skewX(-25deg);">A</span>
+        <span class="letter r" style="transform:scale(0.7, 1) skewX(-23.4deg);">R</span>
+        <span class="letter c" style="transform:scale(0.7, 1) skewX(-21.5deg);">C</span>
+        <span class="letter h" style="transform:scale(0.7, 1) skewX(-15deg);">H</span>
+        <span class="letter i" style="transform:scale(0.7, 1) skewX(-13deg);">I</span>
+        <span class="letter v" style="transform:scale(0.7, 1) skewX(-7deg);">V</span>
+        <span class="letter e" style="transform:scale(0.7, 1) skewX(-0deg);">E</span>
+        <span class="letter s" style="transform:scale(0.7, 1) skewX(-0deg);">S</span>
+    </div>
+
+    <img src="./test.svg" alt="">
+</body>
+
+</html>
