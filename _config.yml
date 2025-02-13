@@ -3,9 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 全武红色博物馆
 subtitle: ""
-description: ""
+description: |
+  昌邑全武红色文化收藏博物馆位于山东省潍坊市昌邑市龙池镇龙兴路1号，是一家以收藏、研究和展示红色文化为主题的非国有博物馆。博物馆由王全武先生创立，他自上世纪90年代起开始收藏红色文化相关藏品，经过20多年的积累，于2019年5月21日正式设立博物馆。
+  博物馆占地面积约3000平方米，馆内藏品丰富，数量达4万余件，涵盖毛主席像章、党报党刊、革命文物、侵华罪证、抗美援朝军品史料等多个门类。这些藏品见证了中国共产党从建党初期到抗击新冠肺炎疫情的各个历史阶段，具有极高的历史文化价值。
+  博物馆设有多个展厅，采用图片、文字和实物相结合的方式展示红色文化。此外，博物馆还被授予“潍坊市红色文化教育基地”“昌邑市党史党性教育基地”等称号，成为当地重要的爱国主义教育场所。
+  博物馆坚持公益性原则，免费对社会开放，并配有专业讲解人员为参观者提供免费讲解服务。
 keywords:
 author: John Doe
 language: en
@@ -13,7 +17,7 @@ timezone: "Asia/Shanghai"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://quanwuhongsebowuguan.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
