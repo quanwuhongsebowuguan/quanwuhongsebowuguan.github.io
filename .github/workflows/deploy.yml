@@ -20,7 +20,7 @@ jobs:
           cache: npm
 
       - run: |
-          npm install hexo hexo-cli -g
+          npm install
           npx hexo clean
           npx hexo generate
 
