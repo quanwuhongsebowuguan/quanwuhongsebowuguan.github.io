@@ -1,10 +1,14 @@
 name: Build and deploy blog
+
 on:
   push:
     branches: [main]
   pull_request:
     types: [closed]
     branches: [main]
+
+permissions:
+  contents: write
 
 jobs:
   build-deploy:
