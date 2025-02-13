@@ -159,6 +159,6 @@ sitemap:
   path: sitemap.xml
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: git
-  branch: gh-pages
+# deploy:
+#   type: git
+#   branch: gh-pages

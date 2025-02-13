@@ -20,13 +20,17 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@1d0ff469b7ec7b3cb9d8673fde0c81c44821de2a # v4.2.0
         with:
-          node-version: "20"
+          node-version: "14"
           cache: npm
 
       - run: |
-          git config --global user.name "GitHub Actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          # 修改 Git 远程仓库地址，直接嵌入 token
-          git remote set-url origin https://${{ secrets.GITHUB_TOKEN }}@github.com/quanwuhongsebowuguan/quanwuhongsebowuguan.github.io.git
           npm install
-          npx hexo deploy
+          npx hexo clean
+          npx hexo generate
+
+      - name: deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          CLEAN: true
+          BRANCH: gh-pages
+          FOLDER: public/
