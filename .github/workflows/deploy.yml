@@ -24,5 +24,8 @@ jobs:
           cache: npm
 
       - run: |
+          # Config Git username as GitHub Actions bot
+          git config --global user.name "GitHub Actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           npm install
           npx hexo deploy
