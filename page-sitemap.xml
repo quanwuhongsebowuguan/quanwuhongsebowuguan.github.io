@@ -10,8 +10,17 @@
     
     
     <url>
+        <loc>https://quanwuhongsebowuguan.github.io/archive/</loc>
+        <lastmod>2025-02-14T05:22:23.482Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
         <loc>https://quanwuhongsebowuguan.github.io/404.html</loc>
-        <lastmod>2025-02-14T05:21:43.827Z</lastmod>
+        <lastmod>2025-02-14T05:22:23.481Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -20,7 +29,7 @@
     
     <url>
         <loc>https://quanwuhongsebowuguan.github.io/about/</loc>
-        <lastmod>2025-02-14T05:21:43.827Z</lastmod>
+        <lastmod>2025-02-14T05:22:23.481Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -28,8 +37,8 @@
     
     
     <url>
-        <loc>https://quanwuhongsebowuguan.github.io/archive/</loc>
-        <lastmod>2025-02-14T05:21:43.827Z</lastmod>
+        <loc>https://quanwuhongsebowuguan.github.io/about/owner.html</loc>
+        <lastmod>2025-02-14T05:22:23.481Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
